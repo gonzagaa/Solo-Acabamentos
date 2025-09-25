@@ -68,41 +68,32 @@ if (larguraDaTela < 800) {
       },
     });
 }
-
 if (larguraDaTela < 800) {
   var swiper6 = new Swiper(".mySwiper6", {
       grabCursor: true,
       autoplay: {
-          delay: 5000,
+          delay: 2000,
           disableOnInteraction: false,
         },
-      spaceBetween: 5,
+      spaceBetween: 20,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
       },
     });
 } else {
   var swiper6 = new Swiper(".mySwiper6", {
-      slidesPerView: 3,
-      spaceBetween: 0,
+      slidesPerView: 4,
+      spaceBetween: 20,
       loop: true,
       grabCursor: true,
       autoplay: {
-          delay: 5000,
+          delay: 2000,
           disableOnInteraction: false,
         },
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
       },
     });
 }

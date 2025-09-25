@@ -1,0 +1,19 @@
+#galeria img {
+    width: 100%;
+    aspect-ratio: 12/16;
+    object-fit: cover;
+}
+
+#galeria .swiper-button-next {
+    top: 50%;
+    color: #ffffff; 
+    transform: scale(.5);
+
+}
+  
+#galeria .swiper-button-prev {
+    top: 50%;
+    color: #ffffff; 
+    transform: scale(.5);
+
+}
