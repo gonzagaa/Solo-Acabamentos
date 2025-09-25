@@ -1,5 +1,5 @@
 #home {
-  height: 95vh;
+  height: auto;
   overflow: hidden;
   background: #000017;
   position: relative;
@@ -7,6 +7,8 @@
 
   transition: all 200ms ease-in-out;
   margin-bottom: 0;
+
+  padding-bottom: 15%;
 }
 
 #home .wrapper {
@@ -198,6 +200,8 @@
 
     border-radius: 0;
     box-shadow: initial;
+
+    padding-bottom: initial;
   }
 
   header#home .swiper {
